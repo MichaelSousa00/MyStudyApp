@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.menu{
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(content/table_menu.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    padding: 0 10%;
+}
+
+.menu .selectTimer{
+    position: absolute;
+    display: flex;
+    bottom:65%;
+    right: 40%;
+
+    padding: 15px 32px;
+    font-size: 30px;
+    color: grey;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+.menu .selectTodo{
+    min-height: 100vh;
+    width: 100%;
+    
+    
+    position: absolute;
+    display: flex;
+    bottom:65%;
+    left: 40%;
+
+}

@@ -1,0 +1,13 @@
+{
+    "name": "Study and Productivity Game",
+    "description": "(work in progress title)",
+    "version": "0.1",
+    "manifest_version": 3,
+    "options_page": "options.html",
+    "action": {
+      "default_popup": ""
+    },
+    
+    "permissions": ["storage", "activeTab", "scripting"]
+
+}
