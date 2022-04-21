@@ -1,4 +1,4 @@
 # Todo-timer-app
 Timer // todo list web app
 
-Start with main.html
+Download all files and start with main.html
