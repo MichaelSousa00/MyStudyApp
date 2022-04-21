@@ -17,26 +17,47 @@
 }
 
 .menu .selectTimer{
-    position: absolute;
+    position: sticky;
     display: flex;
-    bottom:65%;
-    right: 40%;
+    top: 20%;
+    left: 55%;
 
-    padding: 15px 32px;
+    padding: 16px 32px;
+    font-size: 30px;
+    color: grey;
+    background-color: whitesmoke;
+    display: inline-flex;
+    border-radius: 10%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+    
+  .timer-active {
+    color: red;
+  }
+  
+  .timer-inactive {
+    color: green;
+    }
+
+.menu .selectTodo{
+    position: sticky;
+    display: inline-block;
+    top: 20%;
+    left: 30%;
+
+    padding: 20px 40px;
     font-size: 30px;
     color: grey;
     background-color: whitesmoke;
     display: inline-block;
-}
-
-.menu .selectTodo{
-    min-height: 100vh;
-    width: 100%;
-    
-    
-    position: absolute;
-    display: flex;
-    bottom:65%;
-    left: 40%;
-
+    -webkit-border-radius: 15px;
 }

@@ -11,13 +11,40 @@
 <body>
     <div class="menu">
         
-        <button class="selectTimer">
-            <img src="content/select_notebook.png" alt="notebook" height="50px">
-        </button>
+        <div class="selectTimer">
 
-        <button class="selectTodo">Tasks 
-        </button> 
+            <div class="main-container">
+                <h2 id="title-text">Timer</h2>
+                <div class="start-stop-btn-container">
+                  <input id="work-btn" type="radio" name="Work" value="work" />Work
+                  <input id="rest-btn" type="radio" name="Rest" value="rest" />Rest
+                </div>
+                <h1 id="status-text" class="timer-active"></h1>
+                <h1 id="timer-text" class="timer-active"></h1>
+                <div class="btn-container">
+                  <div class="start-stop-btn-container">
+                    <button id="toggle-btn">Start</button>
+                    <button id="reset-btn">Reset</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+        
+        <!-- /////////////// -->
+
+        <div class="selectTodo">Tasks
+            <div>
+                <span>
+                  <input type="text" id="TextBox" name="TextBox">
+                  <input type="submit" value="Add Todo" onclick = "addItem()"/>
+                </span>
+            </div>
+            <div>
+              <ol id="TodoList"></ol>
+            </div>
+        </div> 
 
     </div>
 </body>
+<script src="todo.js"></script>
 </html>

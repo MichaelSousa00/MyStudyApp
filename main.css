@@ -17,7 +17,7 @@
 }
 
 .background .startbutton{
-    position: absolute;
+    position: fixed;
     bottom:70%;
     right:34%;    
     display: flex;
